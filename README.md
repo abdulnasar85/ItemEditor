@@ -26,10 +26,10 @@ config/app-config.js
 
 ## Actions
 
-Undo --> Applies the previous state on the stateHistory hook
-Redo --> Applies the next state on the stateHistory hook
-Save --> Saves the state to the localStorage
-Cancel --> Cancels all changes to bring back the original state
+- Undo --> Applies the previous state on the stateHistory hook
+- Redo --> Applies the next state on the stateHistory hook
+- Save --> Saves the state to the localStorage
+- Cancel --> Cancels all changes to bring back the original state
 
 
 ## TODO
