@@ -1,0 +1,23 @@
+:local(.titleActions) {
+    .title {
+        color: white;
+        display: inline-block;
+        padding-left: 2rem;
+    }
+    .button-area {
+        float: right;
+        padding: 0 4rem;
+        button {
+            cursor: pointer;
+            width: 7rem;
+            height: 2rem;
+            &.undo-button,
+            &.save-button {
+                margin-right: 1rem;
+            }
+            &.redo-button {
+                margin-right: 2rem;
+            }
+        }
+    }
+}
